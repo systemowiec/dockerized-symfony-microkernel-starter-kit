@@ -1,0 +1,38 @@
+{
+    "name": "Starter",
+    "type": "project",
+    "require": {
+        "php": ">=7.0",
+        "symfony/symfony": "^3.2",
+        "symfony/serializer": "^3.2",
+        "predis/predis": "^1.1",
+        "sensio/framework-extra-bundle": "^3.0",
+        "monolog/monolog": "^1.22"
+    },
+    "require-dev": {
+        "behat/behat": "^3.3",
+        "phpspec/phpspec": "^3.2",
+        "phpspec/nyan-formatters": "^2.0",
+        "behat/symfony2-extension": "^2.1",
+        "sensiolabs/security-checker": "^4.0",
+        "escapestudios/symfony2-coding-standard": "^2.10",
+        "squizlabs/php_codesniffer": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/",
+            "Application\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Context\\": "features/bootstrap/Context"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.0"
+        },
+        "bin-dir": "bin"
+    }
+}
