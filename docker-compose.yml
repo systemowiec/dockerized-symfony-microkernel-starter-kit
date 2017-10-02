@@ -26,12 +26,18 @@ mysql:
     ports:
         - 3306:3306
     volumes_from:
-        - app_data
+        - database_data
     environment:
         MYSQL_ROOT_PASSWORD: starter
         MYSQL_DATABASE: starter
         MYSQL_USER: root
         MYSQL_PASSWORD: starter
+
+database_data:
+    image: percona:5.6.33
+    volumes:
+        - /var/lib/mysql
+    command: "true"
 
 app_data:
     image: php:7.0-fpm

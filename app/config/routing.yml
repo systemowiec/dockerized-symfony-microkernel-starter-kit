@@ -1,0 +1,5 @@
+product:
+    path: /product
+    methods: [ get ]
+    defaults:  { _controller: starter.controller.product:indexAction }
+
