@@ -3,4 +3,4 @@ parameters:
     starter.dbname:
     starter.dbpassword:
     starter.dbusername:
-    starter.dbport:
+    starter.dbport: 3306

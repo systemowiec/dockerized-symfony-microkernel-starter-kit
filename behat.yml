@@ -17,7 +17,7 @@ domain:
         tags: '~@e2e'
       paths: ['%paths.base%/features/']
       contexts:
-        - Context\Domain\QuoteContext:
+        - Context\Domain\FeatureContext:
 
 
 e2e:
