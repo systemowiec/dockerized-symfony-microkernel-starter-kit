@@ -3,7 +3,6 @@
 namespace Context\Domain;
 
 use Behat\Behat\Context\Context;
-use Webmozart\Assert\Assert;
 
 /**
  * @author    Jarosław Stańczyk <jaroslaw@stanczyk.co.uk>

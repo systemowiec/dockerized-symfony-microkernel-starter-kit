@@ -7,14 +7,10 @@
     </rule>
     <rule ref="Generic.Arrays.DisallowLongArraySyntax.Found" />
     <rule ref="vendor/escapestudios/symfony2-coding-standard">
-        <!-- Don't force to add unnecessary class comments, which doesn't add any useful info -->
         <exclude name="Symfony2.Commenting.ClassComment.Missing" />
-        <!-- According to the accepted WFO chapter coding standards we don't align "columns" in phpdoc -->
         <exclude name="Symfony2.Commenting.FunctionComment.SpacingAfterParamType" />
         <exclude name="Symfony2.Commenting.FunctionComment.SpacingAfterParamName" />
-        <!-- Don't force to add unnecessary param comments -->
         <exclude name="Symfony2.Commenting.FunctionComment.MissingParamComment" />
-        <!-- Temporarily disable checking of prefix and suffix -->
         <exclude name="Symfony2.NamingConventions.ValidClassName.InvalidAbstractName" />
         <exclude name="Symfony2.NamingConventions.ValidClassName.InvalidInterfaceName" />
         <exclude name="Symfony2.NamingConventions.ValidClassName.InvalidExceptionName" />
