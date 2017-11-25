@@ -1,8 +1,8 @@
-### Symfony Microkernel Starter Kit
+### Dockerized Symfony Microkernel Starter Kit
 
 ## Dependencies
 
-```virtualbox, docker, docker-machine, docker-compose```
+```virtualbox, docker, docker-compose```
 
 ## Installation
 
